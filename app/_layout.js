@@ -1,12 +1,6 @@
-import { Text, View } from 'react-native'
-import React, { Component } from 'react'
+import { Stack } from 'expo-router'
 
-export default class _layout extends Component {
-  render() {
-    return (
-      <View>
-        <Text>_layout</Text>
-      </View>
-    )
-  }
+const Layout = () => {
+  return <Stack />
 }
+export default Layout;
